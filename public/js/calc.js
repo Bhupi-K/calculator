@@ -49,7 +49,7 @@ for (var i = 0; i < operator.length; i++) {
       lastChar === "+" ||
       lastChar === "-" ||
       lastChar === "x" ||
-      lastChar === "÷" 
+      lastChar === "/" 
     ) {
       var newString =
         currentString.substring(0, currentString.length - 1) +
